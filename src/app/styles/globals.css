@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #282c33;
+  --color-primary: #c778dd;
+  --color-gray: #abb2bf;
+  --color-white: #ffffff;
+}
+
+@theme inline {
+  --font-cascadia: var(--font-cascadia), monospace;
+}
